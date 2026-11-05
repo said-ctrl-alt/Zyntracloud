@@ -1,0 +1,88 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-height) + 1.5rem);
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-text);
+  font: 400 1rem/1.65 var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, p, figure {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+  line-height: 1.12;
+  text-wrap: balance;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: .25em;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+::selection {
+  background: var(--color-navy);
+  color: var(--color-green);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-blue);
+  outline-offset: 5px;
+  box-shadow: 0 0 0 3px var(--color-paper);
+}
+
+section[id], main[id], h2[id] {
+  scroll-margin-top: calc(var(--header-height) + 1.5rem);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+
+}

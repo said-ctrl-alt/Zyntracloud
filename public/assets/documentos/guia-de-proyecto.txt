@@ -1,0 +1,25 @@
+ZYNTRA CLOUD — GUÍA PARA TU PROYECTO
+
+Una plantilla para preparar una primera conversación.
+Este archivo es local: no envía ni almacena información en Zyntra Cloud.
+
+1. EL CONTEXTO
+¿A qué se dedica tu empresa?
+¿Qué procesos necesitas mejorar o conectar?
+
+2. EL PUNTO DE PARTIDA
+¿Cómo funciona hoy tu operación?
+¿Qué infraestructura y software utilizas?
+¿Qué restricciones deben tenerse en cuenta?
+
+3. LO QUE QUIERES CONSTRUIR
+¿Qué problema necesitas resolver?
+¿Qué resultado esperas conseguir?
+¿Cómo sabrás que la solución funciona?
+
+4. LA EVOLUCIÓN
+¿Qué necesidades podrían aparecer después?
+¿Qué prioridades y plazos tienes en mente?
+
+No incluyas contraseñas, credenciales ni información sensible.
+Comparte esta guía únicamente mediante un canal comercial confirmado.
