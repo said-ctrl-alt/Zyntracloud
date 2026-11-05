@@ -1,0 +1,21 @@
+{
+  "name": "zyntra-cloud",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Sitio corporativo de Zyntra Cloud: cloud y software a medida.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test --experimental-test-isolation=none tests/*.test.js",
+    "test:browser": "playwright test"
+  },
+  "engines": {
+    "node": "^22.12.0 || >=24.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "vite": "^7.3.1"
+  }
+}
