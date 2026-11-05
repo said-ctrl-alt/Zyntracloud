@@ -1,5 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  build: { target: 'es2022' },
+  base: '/Zyntracloud/',
+  build: {
+    target: 'es2022',
+  },
 });
